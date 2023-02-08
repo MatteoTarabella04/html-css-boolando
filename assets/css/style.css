@@ -59,6 +59,7 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
     color: var(--white-bg);
 }
 
@@ -98,6 +99,10 @@ ul {
 
 /* #region app-main */
 
+#app-main {
+    z-index: 0;
+}
+
 .card {
     width: calc(100% / 3);
     margin-top: 100px;
@@ -118,4 +123,53 @@ ul {
 .price-l {
     text-decoration: line-through;
     font-size: 14px;
+}
+
+.img {
+    position: relative;
+}
+
+.img i, .img span {
+    position: absolute;
+}
+
+.img i {
+    background-color: var(--white-bg);
+    padding: 15px;
+    bottom: 88%;
+    right: 2%; 
+}
+
+.img i:hover {
+    color: var(--pr-red);
+}
+
+.sale {
+    background-color: var(--pr-red);
+    color: var(--white-bg);
+    top: 85%;
+    left: 0;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info {
+    background-color: var(--boc-green);
+    color: var(--white-bg);
+    top: 85%;
+    left: 15%;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info-single {
+    background-color: var(--boc-green);
+    color: var(--white-bg);
+    top: 85%;
+    left: 0;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
