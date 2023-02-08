@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #region root */
+
+root {
+    --nav-orange: #ff6900;
+    --white-bg: #ffffff;
+    --txt-foot-blk: #1a1a1a;
+    --boc-green: #008000;
+}
+
+/* #endregion root */
