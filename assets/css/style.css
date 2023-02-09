@@ -216,13 +216,16 @@ ul {
 /* #region app-footer */
 
 #app-footer {
-    background-color: var(--txt-foot-blk);height: 100px;
+    background-color: var(--txt-foot-blk);height:100px;
     margin-top: 55px;
+}
+
+#app-footer .container {
+    justify-content: space-between;
 }
 
 .foot-info, .foot-social {
     color: var(--white-bg);
-    width: 50%;
     padding: 1.5rem 0;
 }
 
@@ -234,10 +237,6 @@ ul {
     color: var(--white-bg);
     font-size: 12px;
     padding: 0 5px 0 0;
-}
-
-.foot-social {
-    width: 50%;
 }
 
 .foot-social a {
